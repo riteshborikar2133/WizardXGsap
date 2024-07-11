@@ -1,0 +1,217 @@
+@font-face {
+    font-family: china;
+    src: url("./NeueMachina.woff2");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+section {
+    background: rgb(246, 246, 232);
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    font-family: sans-serif;
+}
+
+nav .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+nav h1 {
+    font-size: 1.8rem;
+}
+
+nav .part2 h4 {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+nav .part2 button {
+    padding: 0.21rem 1rem;
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 0.21rem;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+.center {
+    box-sizing: border-box;
+    height: 65%;
+    width: 100%;
+    margin: 2rem 0;
+    /* background: saddlebrown; */
+    display: flex;
+    padding: 1.5rem 2.5rem;
+}
+
+.center-part1 {
+    height: 100%;
+    width: 45%;
+    /* background: lavenderblush; */
+}
+
+.center-part2 {
+    height: 100%;
+    width: 55%;
+    /* background: lightblue; */
+}
+
+.center-part1 h1 {
+    font-family: china;
+    font-size: 3.8rem;
+}
+
+.center-part1 p{
+    font-size: 1.2rem;
+    width: 95%;
+    line-height: 1.7rem;
+    font-weight: 200;
+    margin: 1.2rem 0;
+}
+
+.center-part1 button{
+    background-color: black;
+    color: white;
+    border-radius: .21rem;
+    border: none;
+    font-size: 1rem;
+    padding: 0.51rem 1.5rem;
+}
+.center-part2{
+    text-align: center;
+}
+
+.center-part2 img{
+    height: 80%;
+}
+
+.section1bottom {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.section1bottom img{
+    height: 5rem;
+
+}
+
+.section2 .services{
+    /* margin: 2rem 0; */
+    /* background: red; */
+    padding: 2rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1.5rem;
+}
+
+.section2 .services h3{
+    background-color: #9ae975;
+    font-weight: 500;
+    padding: 0.21rem;
+    font-family: china;
+    font-size: 2rem;
+    border-radius: 0.2rem;
+}
+
+.section2 .services p{
+    font-size: 1rem;
+    width: 40%;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.section2 .container{
+    box-sizing: border-box;
+    height: 80vh;
+    width: 100vw;
+    padding: 3rem 2rem;
+    /* background: rebeccapurple; */
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section2 .container .elem{
+    background: skyblue;
+    box-sizing: border-box;
+    height: 15rem;
+    width: 40%;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 0 black;
+    display: flex;
+
+}
+
+.elem .elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.elem .elem-part1 h2{
+    font-size: 1.72rem;
+    color: black;
+    width: 80%;
+    background-color: #9ae975;
+    font-family: china;
+}
+
+.elem .elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-family: china;
+    justify-content: center;
+    gap:.51rem;
+}
+.elem .elem-part1 h4 i{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    padding:0.2rem;
+    font-size: 1.5rem;
+}
+
+.elem .elem-part2{
+    height: 100%;
+    width: 50%;
+}
+
+.elem .elem-part2 img{
+    height: 100%;   
+}
+
+.section2 .container .black{
+    background-color: black;
+    color: white;
+}
+
+.black .elem-part1 h4 i{
+    background-color: white;
+    color: black;
+}
