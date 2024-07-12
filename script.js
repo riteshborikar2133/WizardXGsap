@@ -68,3 +68,9 @@ t2.from(".elem.line2.right",{
     opacity:0
 },"a2")
 
+
+var navToggle = document.querySelector("#navtoggle")
+var navpart2 = document.querySelector("#navpart2")
+navToggle.addEventListener("click",function(){
+    navpart2.classList.toggle("active")
+})
