@@ -239,6 +239,10 @@ nav .part2 button {
         font-size: 12px;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
     section {
         overflow-x: hidden;
         height: auto;
